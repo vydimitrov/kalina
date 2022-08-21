@@ -2728,6 +2728,9 @@ Activities Area CSS
   transition: 0.5s;
   font-weight: bold;
 }
+.single-activities .number span img {
+  max-height: 60px;
+}
 
 .single-activities .number span::before {
   position: absolute;
