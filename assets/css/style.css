@@ -1274,6 +1274,10 @@ Main Banner Area CSS
   right: 0;
 }
 
+.main-banner-image-wrap .banner-image-wrap-shape img {
+  max-height: 600px;
+}
+
 .main-banner-shape .banner-bg-shape {
   position: absolute;
   bottom: -75px;

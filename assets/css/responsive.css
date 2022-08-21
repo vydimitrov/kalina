@@ -954,13 +954,13 @@
 
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {
   .main-banner-content {
-    max-width: 550px;
+    max-width: 450px;
   }
 }
 
 @media only screen and (min-width: 1550px) {
   .main-banner-item {
-    height: 865px;
+    height: 650px;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
