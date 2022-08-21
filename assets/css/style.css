@@ -2748,11 +2748,11 @@ Activities Area CSS
 }
 
 .single-activities .number .bg-2 {
-  background-color: #fdbea8;
+  background-color: #fd91a8;
 }
 
 .single-activities .number .bg-2::before {
-  border: 1px solid #fdbea8;
+  border: 1px solid #fd91a8;
 }
 
 .single-activities .number .bg-3 {
@@ -2764,11 +2764,11 @@ Activities Area CSS
 }
 
 .single-activities .number .bg-4 {
-  background-color: #fd91a8;
+  background-color: #fdbea8;
 }
 
 .single-activities .number .bg-4::before {
-  border: 1px solid #fd91a8;
+  border: 1px solid #fdbea8;
 }
 
 .single-activities .number .bg-5 {
