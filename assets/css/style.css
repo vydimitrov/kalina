@@ -161,7 +161,7 @@ Default btn CSS
   display: inline-block;
   padding: 12px 35px;
   background-color: #EF6351;
-  color: #000;
+  color: #fff;
   border-radius: 10px;
   font-size: 16px;
   font-weight: 500;
@@ -173,7 +173,7 @@ Default btn CSS
 }
 
 .default-btn:hover {
-  color: #000;
+  color: #fff;
 }
 
 .optional-btn {
@@ -529,6 +529,7 @@ Navbar Area CSS
 
 .main-navbar {
   padding-top: 0;
+  background-color: #F5FFF5;
 }
 
 .main-navbar .navbar {
