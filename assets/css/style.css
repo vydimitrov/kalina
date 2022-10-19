@@ -160,8 +160,8 @@ Default btn CSS
 .default-btn {
   display: inline-block;
   padding: 12px 35px;
-  background-color: #ea512e;
-  color: #ffffff;
+  background-color: #EF6351;
+  color: #000;
   border-radius: 10px;
   font-size: 16px;
   font-weight: 500;
@@ -172,26 +172,8 @@ Default btn CSS
   overflow: hidden;
 }
 
-.default-btn::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 0%;
-  background-color: #f5890d;
-  z-index: -1;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  border-radius: 10px;
-}
-
 .default-btn:hover {
-  color: #ffffff;
-}
-
-.default-btn:hover::before {
-  height: 100%;
+  color: #000;
 }
 
 .optional-btn {
@@ -1176,11 +1158,6 @@ Main Banner Area CSS
 }
 
 .main-banner-item {
-  background-image: url(../../assets/img/main-banner/main-banner-bg.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-repeat: no-repeat;
   position: relative;
   z-index: 1;
   height: 700px;
@@ -1191,8 +1168,7 @@ Main Banner Area CSS
 }
 
 .main-banner-item.banner-item-two {
-  background-image: unset;
-  background-color: #f5edec;
+  background-color: #F5FFF5;
 }
 
 .main-banner-item.banner-item-three {
