@@ -118,6 +118,10 @@ img {
   display: inline-block;
 }
 
+.mt-100 {
+  margin-top: 100px;
+}
+
 .ptb-100 {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -1600,10 +1604,6 @@ Who We Are Area CSS
   font-size: 45px;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.who-we-are-content p {
-  margin-bottom: 0;
 }
 
 .who-we-are-content .who-we-are-list {
