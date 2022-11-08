@@ -6521,3 +6521,11 @@ Go Top CSS
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+.circle-img {
+  border-radius: 50%;
+}
+
+.rounded-img {
+  border-radius: 15px;
+}
