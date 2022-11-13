@@ -863,9 +863,6 @@
   .main-banner-content {
     max-width: 450px;
   }
-  .main-banner-shape .banner-bg-shape {
-    bottom: -35px;
-  }
   .main-banner-shape .shape-1 {
     max-width: 60px;
   }
@@ -918,10 +915,7 @@
   .choose-area {
     overflow: hidden;
   }
-  .main-banner-shape .banner-bg-shape-2 {
-    top: -40px;
-    left: -5px;
-  }
+
   .single-fun-fact h3 {
     font-size: 40px;
   }
