@@ -6525,3 +6525,8 @@ Go Top CSS
 .rounded-img {
   border-radius: 15px;
 }
+
+.row > .col-lg-6 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
