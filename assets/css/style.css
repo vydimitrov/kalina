@@ -557,7 +557,7 @@ Navbar Area CSS
   margin-right: 15px;
 }
 
-.main-navbar .navbar .navbar-nav .nav-item a {
+.main-navbar .navbar .navbar-nav .nav-item > .nav-link {
   color: #1b0238;
   font-size: 16px;
   font-weight: 600;
@@ -566,9 +566,10 @@ Navbar Area CSS
   padding-top: 25px;
   padding-bottom: 25px;
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 
-.main-navbar .navbar .navbar-nav .nav-item a i {
+.main-navbar .navbar .navbar-nav .nav-item > .nav-link i {
   font-size: 20px;
   position: relative;
   top: 4px;
@@ -577,7 +578,9 @@ Navbar Area CSS
   margin-right: -2px;
 }
 
-.main-navbar .navbar .navbar-nav .nav-item a:hover, .main-navbar .navbar .navbar-nav .nav-item a:focus, .main-navbar .navbar .navbar-nav .nav-item a.active {
+.main-navbar .navbar .navbar-nav .nav-item > .nav-link:hover,
+.main-navbar .navbar .navbar-nav .nav-item > .nav-link:focus,
+.main-navbar .navbar .navbar-nav .nav-item > .nav-link.active {
   color: #FFBC0A;
 }
 
@@ -589,7 +592,8 @@ Navbar Area CSS
   margin-left: 0;
 }
 
-.main-navbar .navbar .navbar-nav .nav-item:hover a, .main-navbar .navbar .navbar-nav .nav-item.active a {
+.main-navbar .navbar .navbar-nav .nav-item:hover a,
+.main-navbar .navbar .navbar-nav .nav-item.active a {
   color: #FFBC0A;
 }
 
@@ -1110,7 +1114,7 @@ Navbar Area CSS
   .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul li a.active {
     color: #f5890d;
   }
-  .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul li a i {
+  .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul li .nav-link i {
     display: none;
   }
   .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul li li a {
