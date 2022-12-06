@@ -6534,3 +6534,11 @@ Go Top CSS
   padding-left: 2rem;
   padding-right: 2rem;
 }
+
+.group-logo-wrapper {
+  text-align: center;
+}
+
+.group-logo-wrapper .group-logo {
+  width: 100px;
+}
