@@ -3431,13 +3431,8 @@ Page Banner CSS
 .page-banner-area {
   position: relative;
   z-index: 1;
-  background-image: url(../../assets/img/page-banner/page-banner-1.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-attachment: fixed;
 }
 
 .page-banner-area .page-banner-img {
@@ -6496,4 +6491,8 @@ Go Top CSS
 
 .our-mission-list li + li {
   margin-top: 20px;
+}
+
+.object-top {
+  object-position: top;
 }
