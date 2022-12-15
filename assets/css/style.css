@@ -63,6 +63,7 @@ Default CSS
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 body {
   padding: 0;
   margin: 0;
@@ -1204,7 +1205,7 @@ Main Banner Area CSS
 
 .main-banner-item.banner-item-four {
   background-image: unset;
-  background-color: #73548f;
+  background-color: #9B5BD8;
 }
 
 .main-banner-item.banner-item-four .main-banner-content h1 {
@@ -6495,4 +6496,8 @@ Go Top CSS
 
 .object-top {
   object-position: top;
+}
+
+.section-gradient {
+  background: linear-gradient(to bottom, #fff 30%, rgba(155,91,216, 0.4));
 }
