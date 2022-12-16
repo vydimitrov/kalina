@@ -6501,3 +6501,7 @@ Go Top CSS
 .section-gradient {
   background: linear-gradient(to bottom, #fff 30%, rgba(155,91,216, 0.4));
 }
+
+.underline {
+  text-decoration-line: underline;
+}
