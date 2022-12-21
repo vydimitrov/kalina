@@ -5928,30 +5928,6 @@ Widget Sidebar CSS
   background-position: center center !important;
 }
 
-.widget-area .widget_ketan_posts_thumb .item .thumb .fullimage.bg1 {
-  background-image: url(../../assets/img/blog/blog-1.jpg);
-}
-
-.widget-area .widget_ketan_posts_thumb .item .thumb .fullimage.bg2 {
-  background-image: url(../../assets/img/blog/blog-2.jpg);
-}
-
-.widget-area .widget_ketan_posts_thumb .item .thumb .fullimage.bg3 {
-  background-image: url(../../assets/img/blog/blog-3.jpg);
-}
-
-.widget-area .widget_ketan_posts_thumb .item .thumb .fullimage.bg4 {
-  background-image: url(../../assets/img/blog/blog-4.jpg);
-}
-
-.widget-area .widget_ketan_posts_thumb .item .thumb .fullimage.bg5 {
-  background-image: url(../../assets/img/blog/blog-5.jpg);
-}
-
-.widget-area .widget_ketan_posts_thumb .item .thumb .fullimage.bg6 {
-  background-image: url(../../assets/img/blog/blog-6.jpg);
-}
-
 .widget-area .widget_ketan_posts_thumb .item .info {
   overflow: hidden;
   margin-top: 5px;
@@ -5980,6 +5956,13 @@ Widget Sidebar CSS
 
 .widget-area .widget_ketan_posts_thumb .item .info .title a:hover {
   color: #f5890d;
+}
+
+.widget-area .widget_ketan_posts_thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 .widget-area .widget_categories {
