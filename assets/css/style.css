@@ -6047,13 +6047,21 @@ Widget Sidebar CSS
 Footer Area CSS
 =================================================*/
 .footer-area {
-  background-image: url(../../assets/img/footer-bg.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   position: relative;
   z-index: 1;
+}
+
+.footer-area .image-note {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+}
+
+.footer-area .image-note p {
+  color: #fff;
+  font-style: italic;
+  font-size: 12px;
 }
 
 .footer-area::before {
