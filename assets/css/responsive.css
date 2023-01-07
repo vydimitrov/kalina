@@ -1043,7 +1043,7 @@
   .nav-close-button {
     position: absolute;
     top: 8px;
-    left: calc(70% - 40px);
+    left: calc(70% - 54px);
   }
 
   .main-navbar .navbar .navbar-nav .nav-item:hover .dropdown-menu {

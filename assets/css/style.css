@@ -7470,6 +7470,8 @@ Go Top CSS
   display: none;
   border: none;
   background: transparent;
+  color: #000;
+  padding: 8px;
 }
 
 .sr-only {
