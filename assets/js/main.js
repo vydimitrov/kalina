@@ -27,4 +27,16 @@
     .addEventListener("click", function () {
       document.querySelector(".navbar-wrapper").classList.add("show-nav-bar");
     });
+
+  // Highlight the active menu item
+  const page = location.pathname.split("/").pop();
+  const link = document
+    .querySelector(".main-navbar")
+    .querySelector(`[href="/${page}"]`);
+
+  if (!!link) {
+    link.classList.add("active");
+    const dropdown = link.closest(".dropdown-menu");
+    dropdown.previousElementSibling.classList.add("active");
+  }
 })();
