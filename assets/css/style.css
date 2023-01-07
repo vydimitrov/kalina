@@ -584,6 +584,8 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item > .nav-link {
+  display: flex;
+  align-items: center;
   color: #1b0238;
   font-size: 16px;
   font-weight: 600;
@@ -593,6 +595,11 @@ Navbar Area CSS
   padding-bottom: 25px;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
+}
+.main-navbar .navbar .navbar-nav .nav-item > .nav-link svg {
+  width: 20px;
+  height: 20px;
+  margin-left: 3px;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item > .nav-link i {
@@ -5409,10 +5416,10 @@ Contact Area CSS
   padding-left: 25px;
 }
 
-.contact-information .contact-list li i {
+.contact-information .contact-list li svg {
   position: absolute;
-  left: 0;
   top: 2px;
+  left: 2px;
   color: #ffbc0a;
   font-size: 20px;
 }
@@ -6414,17 +6421,8 @@ blockquote p,
   max-width: 50%;
 }
 
-.post-navigation .navigation-links .nav-previous a i {
-  margin-right: 2px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  font-size: 18px;
-  position: relative;
-  top: 2px;
-}
-
-.post-navigation .navigation-links .nav-previous a:hover i {
-  margin-right: 0;
+.post-navigation .navigation-links .nav-previous a svg {
+  transform: rotate(90deg);
 }
 
 .post-navigation .navigation-links .nav-next {
@@ -6435,21 +6433,13 @@ blockquote p,
   text-align: right;
 }
 
-.post-navigation .navigation-links .nav-next a i {
-  margin-left: 2px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  font-size: 18px;
-  position: relative;
-  top: 2px;
-}
-
-.post-navigation .navigation-links .nav-next a:hover i {
-  margin-left: 0;
+.post-navigation .navigation-links .nav-next a svg {
+  transform: rotate(-90deg);
 }
 
 .post-navigation .navigation-links div a {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   font-weight: 600;
 }
 
@@ -7065,21 +7055,20 @@ Footer Area CSS
 
 .single-footer-widget .social li a {
   display: block;
-  width: 35px;
-  height: 35px;
-  line-height: 40px;
+  width: 29px;
+  height: 29px;
+  line-height: 1;
   border-radius: 50%;
-  background-color: #ffbc0a;
-  color: #ffffff;
+  background-color: #fff;
   text-align: center;
   font-size: 18px;
 }
 
-.single-footer-widget .social li a:hover,
-.single-footer-widget .social li a:focus {
-  background-color: #f5890d;
-  -webkit-transform: translateY(-5px);
-  transform: translateY(-5px);
+.single-footer-widget .social li svg {
+  width: 36px;
+  height: 36px;
+  color: #ffbc0a;
+  transform: translate3d(-4px, -4px, 0);
 }
 
 .single-footer-widget h3 {
@@ -7106,6 +7095,14 @@ Footer Area CSS
   list-style-type: none;
 }
 
+.single-footer-widget .footer-contact-info svg {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  font-size: 25px;
+  color: #ffbc0a;
+}
+
 .single-footer-widget .footer-contact-info li {
   margin-bottom: 20px;
   color: #ffffff;
@@ -7113,14 +7110,6 @@ Footer Area CSS
   padding-left: 35px;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-}
-
-.single-footer-widget .footer-contact-info li i {
-  position: absolute;
-  left: 0;
-  top: 5px;
-  font-size: 25px;
-  color: #ffbc0a;
 }
 
 .single-footer-widget .footer-contact-info li span {
