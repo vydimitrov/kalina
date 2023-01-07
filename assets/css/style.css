@@ -573,8 +573,8 @@ Navbar Area CSS
   margin-bottom: 0;
 }
 
-.main-navbar .navbar .navbar-nav {
-  margin: auto;
+.navbar-wrapper {
+  margin: 0 auto;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item {
@@ -1556,6 +1556,18 @@ Navbar Area CSS
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
 
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 .others-option-for-responsive {
   display: none;
 }
@@ -1908,9 +1920,7 @@ Navbar Area CSS
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  .main-navbar {
-    display: none;
-  }
+
   .others-option-for-responsive {
     display: block;
   }
@@ -7041,7 +7051,6 @@ Footer Area CSS
 .single-footer-widget .social {
   padding-left: 0;
   list-style-type: none;
-  margin-top: 25px;
   margin-bottom: 0;
 }
 
@@ -7458,4 +7467,11 @@ Go Top CSS
 
 .mb-8 {
   margin-bottom: 32px;
+}
+
+.nav-close-button,
+.mobile-menu-trigger {
+  display: none;
+  border: none;
+  background: transparent;
 }
