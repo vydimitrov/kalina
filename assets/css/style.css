@@ -7485,3 +7485,9 @@ Go Top CSS
   white-space: nowrap;
   border-width: 0;
 }
+
+.menu {
+  max-width: 840px;
+  margin: 0 auto;
+  text-align: center;
+}

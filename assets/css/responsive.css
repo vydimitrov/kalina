@@ -1073,6 +1073,22 @@
   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a {
     padding: 10px;
   }
+
+  .who-we-are .container .row:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+
+  .mt-100 {
+    margin-top: 50px;
+  }
+
+  .footer-area .row > * + * {
+    margin-top: 30px;
+  }
+
+  .who-we-are-content h3 {
+    margin-top: 0;
+  }
 }
 
 /*# sourceMappingURL=responsive.css.map */
