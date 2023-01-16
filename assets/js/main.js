@@ -37,6 +37,6 @@
   if (!!link) {
     link.classList.add("active");
     const dropdown = link.closest(".dropdown-menu");
-    dropdown.previousElementSibling.classList.add("active");
+    !!dropdown && dropdown.previousElementSibling.classList.add("active");
   }
 })();
